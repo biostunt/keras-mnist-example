@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(104, 35, 131);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrapper {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper > button {
+    margin: 0.5rem;
+}
+
+#images {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image {
+    margin: 2px;
+    font-size: 12;
+}
+.p5Canvas {
+    width: 100px !important;
+    height:100px !important;
+}
+
+.image > .p5Canvas {
+    width: 50px !important;
+    height:50px !important;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    font-size: 18;
+}
